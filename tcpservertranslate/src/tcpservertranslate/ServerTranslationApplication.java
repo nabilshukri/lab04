@@ -22,7 +22,7 @@ public class ServerTranslationApplication {
 	public void Continue(String output) throws IOException {
 		
 		
-		ServerOriginalFrame serverFrame = new ServerOriginalFrame();
+		ServerTranslateFrame serverFrame = new ServerTranslateFrame();
 		serverFrame.setVisible(true);
 		
 		// Binding to a port or any other port no you are fancy of
